@@ -1,0 +1,16 @@
+# байткод Python
+__pycache__/
+*.pyc
+*.pyo
+
+# віртуальні середовища
+venv/
+.env/
+
+# IDE-шні папки
+.vscode/
+.idea/
+
+# системні файли
+.DS_Store
+Thumbs.db
