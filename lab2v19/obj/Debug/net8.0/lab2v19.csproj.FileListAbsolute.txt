@@ -1,0 +1,15 @@
+D:\OOP Shakh\lab2v19\bin\Debug\net8.0\lab2v19.exe
+D:\OOP Shakh\lab2v19\bin\Debug\net8.0\lab2v19.deps.json
+D:\OOP Shakh\lab2v19\bin\Debug\net8.0\lab2v19.runtimeconfig.json
+D:\OOP Shakh\lab2v19\bin\Debug\net8.0\lab2v19.dll
+D:\OOP Shakh\lab2v19\bin\Debug\net8.0\lab2v19.pdb
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\lab2v19.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\lab2v19.AssemblyInfoInputs.cache
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\lab2v19.AssemblyInfo.cs
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\lab2v19.csproj.CoreCompileInputs.cache
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\lab2v19.sourcelink.json
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\lab2v19.dll
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\refint\lab2v19.dll
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\lab2v19.pdb
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\lab2v19.genruntimeconfig.cache
+D:\OOP Shakh\lab2v19\obj\Debug\net8.0\ref\lab2v19.dll

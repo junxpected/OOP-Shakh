@@ -1,0 +1,5 @@
+D:\OOP Shakh\lab2v19\obj\Debug\net9.0\lab2v19.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP Shakh\lab2v19\obj\Debug\net9.0\lab2v19.AssemblyInfoInputs.cache
+D:\OOP Shakh\lab2v19\obj\Debug\net9.0\lab2v19.AssemblyInfo.cs
+D:\OOP Shakh\lab2v19\obj\Debug\net9.0\lab2v19.csproj.CoreCompileInputs.cache
+D:\OOP Shakh\lab2v19\obj\Debug\net9.0\lab2v19.sourcelink.json
