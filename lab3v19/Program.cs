@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 
-// 1. Базовий клас
 public abstract class TimeSpanBase
 {
     // Властивості
