@@ -603,3 +603,132 @@ obj/
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,csharp,dotnetcore
+
+
+
+
+
+
+
+
+# ============================
+#     C++ / General
+# ============================
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled static libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Compiled dynamic libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executable files
+*.exe
+*.out
+*.app
+*.elf
+
+# Debug files
+*.pdb
+*.idb
+*.dSYM/
+*.dmp
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+*.swp
+
+# ======================================
+#   CMake
+# ======================================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+build*/
+
+# For CLion
+.idea/
+*.iml
+cmake-build-*/
+
+# ======================================
+#   Visual Studio
+# ======================================
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.vcxproj.filters
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.opendb
+*.VC.db
+
+# ======================================
+#   Qt Creator
+# ======================================
+*.pro.user
+*.pri.user
+moc_*.cpp
+qrc_*.cpp
+*.qmake.stash
+
+# ======================================
+#   Code::Blocks
+# ======================================
+*.depend
+*.layout
+
+# ======================================
+#   Other Editors
+# ======================================
+
+# VSCode
+.vscode/
+
+# JetBrains Editors
+.idea/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ======================================
+#   OS-specific files
+# ======================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
