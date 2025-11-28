@@ -32,11 +32,11 @@
 
 Після запуску програми отримані такі результати:
 
-![alt text](screens/1.png)
+![alt text](screens_res/1.png)
 
-![alt text](screens/2.png)
+![alt text](screens_res/2.png)
 
-![alt text](screens/3.png)
+![alt text](screens_res/3.png)
 
 Всі операції були виконані за допомогою лямбд та STL-функцій.
 
