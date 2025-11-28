@@ -52,7 +52,7 @@ Timeout скасовує дію, якщо вона затягнулась. Fallb
 **фінальний результат виконання**
 
 
-![alt text](screens/image.png)
+![alt text](screenshots/image.png)
 
 
 
