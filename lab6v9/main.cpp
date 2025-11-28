@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <numeric>   // accumulate
 #include <functional> // std::function
+#include <map>
 
 using namespace std;
 
@@ -12,14 +13,15 @@ public:
     string model;
     int mileage;
     double fuelConsumption;
+    string type;
 
-    Car(string m, int ml, double fc)
-        : model(m), mileage(ml), fuelConsumption(fc) {}
+    Car(string m, int ml, double fc, string k)
+        : model(m), mileage(ml), fuelConsumption(fc), type(k) {}
 
     // Зручний вивід інформації
     void print() const {
-        cout << model << " | Пробіг: " << mileage
-             << " км | Витрата: " << fuelConsumption << " л/100км\n";
+        cout << model << " | Пробіг: |" << mileage
+             << " км | Витрата: |" << fuelConsumption << " л/100км |" << "Кузов авто: |" << type << endl;
     }
 };
 
@@ -27,11 +29,14 @@ int main() {
 
     // Створюємо вектор машин
     vector<Car> cars = {
-        Car("BMW 320d", 120000, 6.5),
-        Car("Audi A4", 90000, 7.2),
-        Car("Toyota Corolla", 150000, 6.0),
-        Car("Skoda Octavia", 200000, 5.8),
-        Car("Honda Civic", 80000, 6.8)
+        Car("BMW 320d", 120000, 6.5, "Седан"),
+        Car("Audi A4", 90000, 7.2, "Універсал"),
+        Car("Toyota Corolla", 150000, 6.0, "Седан"),
+        Car("Skoda Octavia", 200000, 5.8, "Ліфтбек"),
+        Car("Honda Civic", 80000, 6.8, "Седан"),
+        Car("Ford Focus", 110000, 7.0, "Хетчбек"),
+        Car("Mazda 3", 95000, 6.4, "Хетчбек")
+
     };
 
     cout << "~~~~ Автомобілі в базі ~~~~\n";
@@ -75,12 +80,26 @@ int main() {
         if (highMileage(c)) c.print();
     cout << endl;
 
+    std::map<std::string, std::vector<Car>> carsByType;
+    for (const auto& c : cars) {
+        carsByType[c.type].push_back(c);
+    }
+    cout << "Групування машин за типом кузова:\n";
+    for (const auto& pair : carsByType) {
+        cout << "Тип кузова: " << pair.first << "\n";
+        for (const auto& c : pair.second) {
+            c.print();
+        }
+        cout << endl;
+    }
+
     // 4) Action → вивід кожної машини
     std::function<void(const Car&)> printCar =
         [](const Car& c) {
             cout << "[Модель: " << c.model
                  << "] Пробіг: " << c.mileage
-                 << " км | Витрата: " << c.fuelConsumption << " л/100км\n";
+                 << " км | Витрата: " << c.fuelConsumption << " л/100км\n"
+                 << "Кузов авто: " << c.type << "\n";
         };
 
     cout << "Вивід машин через Action (std::function<void>):\n";
